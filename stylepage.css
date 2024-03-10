@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.root{
+    display: flex;
+    height: 100vh;
+    border: 5px solid red;
+    flex-direction: column;
+    font-size: larger
+}
+header{
+    flex-basis: 50px;
+    background-color: palevioletred;
+    
+}
+main{
+    display: flex;
+    flex-basis: auto;
+    
+    flex-grow: 1;
+    background-color: cornflowerblue;
+}
+footer{
+    flex-basis: 50px;
+    background-color: darkturquoise;
+    
+}
+aside{
+    flex-basis: 100px;
+    
+    background-color: blue;
+}
+section{
+    flex-basis: auto;
+    flex-grow: 1px;
+    background-color: darkorchid;
+}
+.box{
+    display: flex;
+    flex-basis: 50px;
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    background-color: darkorange;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+}
+.c1{
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    background-color: rgb(255, 192, 253)
+}
+.c2{
+    position: absolute;
+    top: -25px;
+    right: -25px; 
+    background-color: aliceblue;  
+}
+.c3{
+    position: absolute;
+    bottom: -25px;
+    left: -25px;
+    background-color: coral;
+}
+.c4{
+    position: absolute;
+    bottom: -25px;
+    right: -25px;
+    background-color: aqua
+}
